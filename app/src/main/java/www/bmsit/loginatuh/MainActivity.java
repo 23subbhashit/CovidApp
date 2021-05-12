@@ -5,6 +5,7 @@ import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.animation.LinearInterpolator;
 
 import com.agrawalsuneet.dotsloader.loaders.LazyLoader;
@@ -27,8 +28,15 @@ public class MainActivity extends AppCompatActivity {
 
         lights.addView(loader);
 
-//        Intent i =new Intent(this,AuthMain.class);
-//        startActivity(i);
+
+        new Handler().postDelayed(new Runnable() {
+            public void run() {
+                Intent i = new Intent(MainActivity.this,MainActivity2.class);
+                startActivity(i);
+            }
+        }, 2000);
+
+
     }
 
 
