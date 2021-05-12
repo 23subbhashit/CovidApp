@@ -15,7 +15,9 @@
         app:particlesBackgroundColor="#23262a"
         app:particleColor="@android:color/holo_green_dark"
         app:particleLineColor="@android:color/holo_green_dark"
-        app:particleLinesEnabled="true" />
+        app:particleLinesEnabled="true" >
+
+    </me.ibrahimsn.particle.ParticleView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
