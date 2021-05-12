@@ -36,4 +36,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.github.ibrahimsn98:android-particles:2.0'
+    implementation 'com.agrawalsuneet.androidlibs:dotsloader:1.4'
 }
