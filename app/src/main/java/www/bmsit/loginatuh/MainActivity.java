@@ -10,9 +10,12 @@ import android.view.animation.LinearInterpolator;
 
 import com.agrawalsuneet.dotsloader.loaders.LazyLoader;
 import com.agrawalsuneet.dotsloader.loaders.LightsLoader;
+import com.airbnb.lottie.LottieAnimationView;
 
 public class MainActivity extends AppCompatActivity {
-    LazyLoader lights;
+    //LazyLoader lights;
+    boolean isLoadAnimationPlaying = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
 //
 //        lights.addView(loader);
 
-
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                Intent i = new Intent(MainActivity.this,MainActivity2.class);
+                Intent i = new Intent(MainActivity.this, MainActivity2.class);
                 startActivity(i);
+                finish();
             }
-        }, 5000);
+        }, 2000);
 
 
     }

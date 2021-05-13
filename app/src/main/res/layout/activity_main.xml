@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-<!--    <me.ibrahimsn.particle.ParticleView-->
+    tools:context=".MainActivity"
+    android:background="#2E2B2B">
+        <!--    <me.ibrahimsn.particle.ParticleView-->
 <!--        android:id="@+id/particleView"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"-->
@@ -41,15 +42,15 @@
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
             app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
+            app:lottie_loop="false"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
             android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:lottie_fileName="airplane.json" />
+            app:lottie_fileName="loading-screen-loader-spinning-circle.json" />
 
 
 
