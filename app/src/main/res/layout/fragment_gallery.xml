@@ -28,6 +28,8 @@
 
     </androidx.cardview.widget.CardView>
 
+
+
     <TextView
         android:id="@+id/text_gallery"
         android:layout_width="match_parent"
