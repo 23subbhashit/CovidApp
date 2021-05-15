@@ -5,6 +5,7 @@ package www.bmsit.loginatuh;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -20,6 +21,16 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+import retrofit2.http.GET;
+
+
 public class MainActivity2 extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
@@ -32,6 +43,36 @@ public class MainActivity2 extends AppCompatActivity {
 //        recyclerView = findViewById(R.id.re);
 //        recyclerView.setHasFixedSize(true);
 //        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        Retrofit retrofit = new Retrofit.Builer.baseRrl("")
+                                .addConverterFactory(GsonConverterFactory.create())
+                                .build();
+
+        JSONPlaceholder jsonPlaceholder = retrofit.create(JSONPlaceholder.class);
+        Call<List<Post>> call = jsonPlaceholder.getPost();
+
+        call.enqueue(new Callback<List<Post>>() {
+            @Override
+            public void onResponse(Call<List<Post>> call, Response<List<Post>> response) {
+                if(!response.isSuccessful())
+                {
+                    Toast.makeText(MainActivity2.this, response.code(), Toast.LENGTH_SHORT);
+                    return;
+                }
+
+                List<Post> postList = response.body();
+                PostAdapter postAdapter = new PostAdapter(MainActivity2.this, postList);
+
+                //Setting up recyclerview to display????
+                
+
+            }
+
+            @Override
+            public void onFailure(Call<List<Post>> call, Throwable t) {
+                Toast.makeText(MainActivity2.this, t.getMessage(), Toast.LENGTH_SHORT);
+            }
+        });
 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
