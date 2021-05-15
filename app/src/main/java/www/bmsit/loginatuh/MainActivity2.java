@@ -44,7 +44,7 @@ public class MainActivity2 extends AppCompatActivity {
 //        recyclerView.setHasFixedSize(true);
 //        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        Retrofit retrofit = new Retrofit.Builer.baseRrl("")
+        Retrofit retrofit = new Retrofit.Builder.baseRrl("API URL HERE")
                                 .addConverterFactory(GsonConverterFactory.create())
                                 .build();
 
@@ -64,7 +64,7 @@ public class MainActivity2 extends AppCompatActivity {
                 PostAdapter postAdapter = new PostAdapter(MainActivity2.this, postList);
 
                 //Setting up recyclerview to display????
-                
+
 
             }
 
