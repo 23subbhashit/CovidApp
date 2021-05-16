@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\fragment_dash.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\fragment_myth.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidscape\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
+        "source": "E:\\Excecution\\Android\\Covidscape\\app\\src\\main\\res\\layout\\signup.xml"
+    }
+]

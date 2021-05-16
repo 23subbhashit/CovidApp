@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">849406608026-5tjmah76v29k56kv1iknqcbu90beg682.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">849406608026</string>
+    <string name="google_api_key" translatable="false">AIzaSyDXvoYV4I9v8XbGb4ShEFxXC7uhFEVEPHg</string>
+    <string name="google_app_id" translatable="false">1:849406608026:android:a4f2c572c0ced91390d523</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDXvoYV4I9v8XbGb4ShEFxXC7uhFEVEPHg</string>
+    <string name="google_storage_bucket" translatable="false">covidsapp.appspot.com</string>
+    <string name="project_id" translatable="false">covidsapp</string>
+</resources>

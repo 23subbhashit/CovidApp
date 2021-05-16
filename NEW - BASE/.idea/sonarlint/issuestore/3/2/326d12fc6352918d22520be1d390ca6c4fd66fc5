@@ -1,0 +1,16 @@
+
+a	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿¬À
+q
+java:S1450"TRemove the "email" field and declare it as a local variable in the relevant methods.(…é¶ê8Á½Þž—/
+t
+java:S1450"WRemove the "password" field and declare it as a local variable in the relevant methods.(…é¶ê8Â½Þž—/
+k
+java:S1450"URemove the "signup" field and declare it as a local variable in the relevant methods.(“§Ï®
+r
+java:S1450"URemove the "submit" field and declare it as a local variable in the relevant methods.(“§Ï®8Ã½Þž—/
+<
+java:S1659"&Declare "password" on a separate line.(…é¶ê
+:
+java:S1659"$Declare "signup" on a separate line.(“§Ï®
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÝs
