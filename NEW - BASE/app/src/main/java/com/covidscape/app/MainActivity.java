@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         sign = findViewById(R.id.sign);
         log = findViewById(R.id.log);
+        home = findViewById(R.id.home);
 
         sign.setOnClickListener(new View.OnClickListener(){
             @Override
