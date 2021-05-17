@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
+    }
+]

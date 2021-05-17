@@ -20,15 +20,15 @@ public final class HomeBinding implements ViewBinding {
   private final LinearLayoutCompat rootView;
 
   @NonNull
-  public final FragmentContainerView fragmentContainerView;
+  public final FragmentContainerView fragview;
 
   @NonNull
   public final BottomNavigationView nav;
 
-  private HomeBinding(@NonNull LinearLayoutCompat rootView,
-      @NonNull FragmentContainerView fragmentContainerView, @NonNull BottomNavigationView nav) {
+  private HomeBinding(@NonNull LinearLayoutCompat rootView, @NonNull FragmentContainerView fragview,
+      @NonNull BottomNavigationView nav) {
     this.rootView = rootView;
-    this.fragmentContainerView = fragmentContainerView;
+    this.fragview = fragview;
     this.nav = nav;
   }
 
@@ -59,9 +59,9 @@ public final class HomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fragmentContainerView;
-      FragmentContainerView fragmentContainerView = rootView.findViewById(id);
-      if (fragmentContainerView == null) {
+      id = R.id.fragview;
+      FragmentContainerView fragview = rootView.findViewById(id);
+      if (fragview == null) {
         break missingId;
       }
 
@@ -71,7 +71,7 @@ public final class HomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new HomeBinding((LinearLayoutCompat) rootView, fragmentContainerView, nav);
+      return new HomeBinding((LinearLayoutCompat) rootView, fragview, nav);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

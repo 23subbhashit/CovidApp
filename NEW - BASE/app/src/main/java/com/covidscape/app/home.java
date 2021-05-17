@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentContainerView;
-import androidx.navigation.ui.setupWithNavController;
+//import androidx.navigation.ui.setupWithNavController;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -20,7 +20,7 @@ public class home extends AppCompatActivity {
         nav = (BottomNavigationView) findViewById(R.id.nav);
         nav_cont = findViewById(R.id.fragview);
 
-        nav.setupWithNavController(nav_cont);
+        //nav.setupWithNavController(nav_cont);
 
 
     }
