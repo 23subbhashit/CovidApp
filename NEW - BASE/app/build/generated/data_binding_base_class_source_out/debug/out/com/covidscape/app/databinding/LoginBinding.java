@@ -20,24 +20,24 @@ public final class LoginBinding implements ViewBinding {
   private final LinearLayoutCompat rootView;
 
   @NonNull
-  public final TextInputEditText email;
+  public final TextInputEditText email1;
 
   @NonNull
-  public final TextInputEditText password;
+  public final TextInputEditText password1;
 
   @NonNull
-  public final Button signup;
+  public final Button signup1;
 
   @NonNull
-  public final Button submit;
+  public final Button submit1;
 
-  private LoginBinding(@NonNull LinearLayoutCompat rootView, @NonNull TextInputEditText email,
-      @NonNull TextInputEditText password, @NonNull Button signup, @NonNull Button submit) {
+  private LoginBinding(@NonNull LinearLayoutCompat rootView, @NonNull TextInputEditText email1,
+      @NonNull TextInputEditText password1, @NonNull Button signup1, @NonNull Button submit1) {
     this.rootView = rootView;
-    this.email = email;
-    this.password = password;
-    this.signup = signup;
-    this.submit = submit;
+    this.email1 = email1;
+    this.password1 = password1;
+    this.signup1 = signup1;
+    this.submit1 = submit1;
   }
 
   @Override
@@ -67,31 +67,31 @@ public final class LoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.email;
-      TextInputEditText email = rootView.findViewById(id);
-      if (email == null) {
+      id = R.id.email1;
+      TextInputEditText email1 = rootView.findViewById(id);
+      if (email1 == null) {
         break missingId;
       }
 
-      id = R.id.password;
-      TextInputEditText password = rootView.findViewById(id);
-      if (password == null) {
+      id = R.id.password1;
+      TextInputEditText password1 = rootView.findViewById(id);
+      if (password1 == null) {
         break missingId;
       }
 
-      id = R.id.signup;
-      Button signup = rootView.findViewById(id);
-      if (signup == null) {
+      id = R.id.signup1;
+      Button signup1 = rootView.findViewById(id);
+      if (signup1 == null) {
         break missingId;
       }
 
-      id = R.id.submit;
-      Button submit = rootView.findViewById(id);
-      if (submit == null) {
+      id = R.id.submit1;
+      Button submit1 = rootView.findViewById(id);
+      if (submit1 == null) {
         break missingId;
       }
 
-      return new LoginBinding((LinearLayoutCompat) rootView, email, password, signup, submit);
+      return new LoginBinding((LinearLayoutCompat) rootView, email1, password1, signup1, submit1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
