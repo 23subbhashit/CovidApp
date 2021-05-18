@@ -16,7 +16,7 @@
         app:menu="@menu/nav_menu"
         android:id="@+id/nav"/>
 
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/fragview"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
