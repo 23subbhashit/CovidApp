@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,6 +19,7 @@
         android:textSize="50sp"/>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_f"
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
@@ -27,12 +29,13 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/email1"
+            android:id="@+id/email"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_f"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -42,13 +45,13 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/password1"
+            android:id="@+id/password"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/submit1"
+        android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
@@ -58,7 +61,7 @@
         style="?attr/materialButtonOutlinedStyle"/>
 
     <Button
-        android:id="@+id/signup1"
+        android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Signup instead ?"

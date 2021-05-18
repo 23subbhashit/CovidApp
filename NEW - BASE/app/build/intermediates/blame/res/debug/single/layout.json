@@ -1,34 +1,34 @@
 [
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
+        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
+        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
     }
 ]

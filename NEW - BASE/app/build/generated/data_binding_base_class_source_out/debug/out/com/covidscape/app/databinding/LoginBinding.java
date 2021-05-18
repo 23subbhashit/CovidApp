@@ -11,6 +11,7 @@ import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.viewbinding.ViewBinding;
 import com.covidscape.app.R;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,24 +21,33 @@ public final class LoginBinding implements ViewBinding {
   private final LinearLayoutCompat rootView;
 
   @NonNull
-  public final TextInputEditText email1;
+  public final TextInputEditText email;
 
   @NonNull
-  public final TextInputEditText password1;
+  public final TextInputLayout emailF;
 
   @NonNull
-  public final Button signup1;
+  public final TextInputEditText password;
 
   @NonNull
-  public final Button submit1;
+  public final TextInputLayout passwordF;
 
-  private LoginBinding(@NonNull LinearLayoutCompat rootView, @NonNull TextInputEditText email1,
-      @NonNull TextInputEditText password1, @NonNull Button signup1, @NonNull Button submit1) {
+  @NonNull
+  public final Button signup;
+
+  @NonNull
+  public final Button submit;
+
+  private LoginBinding(@NonNull LinearLayoutCompat rootView, @NonNull TextInputEditText email,
+      @NonNull TextInputLayout emailF, @NonNull TextInputEditText password,
+      @NonNull TextInputLayout passwordF, @NonNull Button signup, @NonNull Button submit) {
     this.rootView = rootView;
-    this.email1 = email1;
-    this.password1 = password1;
-    this.signup1 = signup1;
-    this.submit1 = submit1;
+    this.email = email;
+    this.emailF = emailF;
+    this.password = password;
+    this.passwordF = passwordF;
+    this.signup = signup;
+    this.submit = submit;
   }
 
   @Override
@@ -67,31 +77,44 @@ public final class LoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.email1;
-      TextInputEditText email1 = rootView.findViewById(id);
-      if (email1 == null) {
+      id = R.id.email;
+      TextInputEditText email = rootView.findViewById(id);
+      if (email == null) {
         break missingId;
       }
 
-      id = R.id.password1;
-      TextInputEditText password1 = rootView.findViewById(id);
-      if (password1 == null) {
+      id = R.id.email_f;
+      TextInputLayout emailF = rootView.findViewById(id);
+      if (emailF == null) {
         break missingId;
       }
 
-      id = R.id.signup1;
-      Button signup1 = rootView.findViewById(id);
-      if (signup1 == null) {
+      id = R.id.password;
+      TextInputEditText password = rootView.findViewById(id);
+      if (password == null) {
         break missingId;
       }
 
-      id = R.id.submit1;
-      Button submit1 = rootView.findViewById(id);
-      if (submit1 == null) {
+      id = R.id.password_f;
+      TextInputLayout passwordF = rootView.findViewById(id);
+      if (passwordF == null) {
         break missingId;
       }
 
-      return new LoginBinding((LinearLayoutCompat) rootView, email1, password1, signup1, submit1);
+      id = R.id.signup;
+      Button signup = rootView.findViewById(id);
+      if (signup == null) {
+        break missingId;
+      }
+
+      id = R.id.submit;
+      Button submit = rootView.findViewById(id);
+      if (submit == null) {
+        break missingId;
+      }
+
+      return new LoginBinding((LinearLayoutCompat) rootView, email, emailF, password, passwordF,
+          signup, submit);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

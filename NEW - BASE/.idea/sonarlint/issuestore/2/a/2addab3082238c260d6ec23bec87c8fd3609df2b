@@ -1,14 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ê¿˜Üøÿÿÿÿ
-<
-java:S1659"&Declare "password" on a separate line.(…é¶ê
-=
-java:S1659""Declare "pass" on a separate line.(“»‘ûÿÿÿÿ
-X	java:S125"<This block of commented-out lines of code should be removed.(Ì×‡Ú8÷»Õ¢—/
-V	java:S125E"<This block of commented-out lines of code should be removed.(Ñ¨¸ñýÿÿÿÿ
-F
-java:S1068")Remove this unused "email" private field.(…é¶ê8ù»Õ¢—/
-I
-java:S1068",Remove this unused "password" private field.(…é¶ê8ù»Õ¢—/
-F
-java:S1068"*Remove this unused "submit" private field.(Ä‘Æ8ú»Õ¢—/

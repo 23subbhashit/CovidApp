@@ -1,34 +1,63 @@
 package com.covidscape.app;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 
 public class login extends AppCompatActivity {
 
-    //signup o = new signup();
-    EditText email1, password1;
-    Button submit1, signup1;
+    private EditText email, password;
+    private Button submit, sig;
+    String em, pass;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-//        get_input_();
-        email1 = findViewById(R.id.email1);
-        password1 = findViewById(R.id.password1);
-        submit1 = findViewById(R.id.submit1);
-        signup1 = findViewById(R.id.signup1);
+        email = findViewById(R.id.email);
+        password = findViewById(R.id.password);
+        submit = findViewById(R.id.submit);
+        sig = findViewById(R.id.signup);
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                validate();
+            }
+        });
+
+        sig.setOnClickListener(new View.OnClickListener(){
+            @Override
+                    public void onClick(View v){
+                startActivity(new Intent(login.this, signup.class));
+            }
+        });
     }
 
-    public void get_input_(){
-        email1 = findViewById(R.id.email1);
-        password1 = findViewById(R.id.password1);
-        submit1 = findViewById(R.id.submit1);
-        signup1 = findViewById(R.id.signup1);
+    private void validate() {
+        em = email.getText().toString().trim();
+        pass = password.getText().toString().trim();
+
+        if (em.isEmpty()) {
+            email.setError("Required");
+            email.requestFocus();
+        } else if (pass.isEmpty()) {
+            password.setError("Required");
+            password.requestFocus();
+        } else if (pass.length() < 8) {
+            password.setError("Length should >=8");
+            password.requestFocus();
+        } else {
+        }
+
     }
 }
