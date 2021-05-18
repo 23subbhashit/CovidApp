@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.LinearLayoutCompat;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import com.covidscape.app.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -20,15 +19,10 @@ public final class HomeBinding implements ViewBinding {
   private final LinearLayoutCompat rootView;
 
   @NonNull
-  public final FragmentContainerView fragview;
-
-  @NonNull
   public final BottomNavigationView nav;
 
-  private HomeBinding(@NonNull LinearLayoutCompat rootView, @NonNull FragmentContainerView fragview,
-      @NonNull BottomNavigationView nav) {
+  private HomeBinding(@NonNull LinearLayoutCompat rootView, @NonNull BottomNavigationView nav) {
     this.rootView = rootView;
-    this.fragview = fragview;
     this.nav = nav;
   }
 
@@ -59,19 +53,13 @@ public final class HomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fragview;
-      FragmentContainerView fragview = rootView.findViewById(id);
-      if (fragview == null) {
-        break missingId;
-      }
-
       id = R.id.nav;
       BottomNavigationView nav = rootView.findViewById(id);
       if (nav == null) {
         break missingId;
       }
 
-      return new HomeBinding((LinearLayoutCompat) rootView, fragview, nav);
+      return new HomeBinding((LinearLayoutCompat) rootView, nav);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
