@@ -8,20 +8,20 @@
         "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\menu\\nav_menu.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.xml.flat",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\drawable\\news.xml"
-    },
-    {
         "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_news.xml.flat",
         "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.xml.flat",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\drawable\\news.xml"
     },
     {
         "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Apps\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Apps\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
