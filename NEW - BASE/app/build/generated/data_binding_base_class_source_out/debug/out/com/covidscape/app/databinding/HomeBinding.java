@@ -4,9 +4,10 @@ package com.covidscape.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.covidscape.app.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -16,19 +17,28 @@ import java.lang.String;
 
 public final class HomeBinding implements ViewBinding {
   @NonNull
-  private final LinearLayoutCompat rootView;
+  private final ConstraintLayout rootView;
+
+  @NonNull
+  public final FrameLayout fragview;
+
+  @NonNull
+  public final ConstraintLayout linearLayoutCompat;
 
   @NonNull
   public final BottomNavigationView nav;
 
-  private HomeBinding(@NonNull LinearLayoutCompat rootView, @NonNull BottomNavigationView nav) {
+  private HomeBinding(@NonNull ConstraintLayout rootView, @NonNull FrameLayout fragview,
+      @NonNull ConstraintLayout linearLayoutCompat, @NonNull BottomNavigationView nav) {
     this.rootView = rootView;
+    this.fragview = fragview;
+    this.linearLayoutCompat = linearLayoutCompat;
     this.nav = nav;
   }
 
   @Override
   @NonNull
-  public LinearLayoutCompat getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -53,13 +63,21 @@ public final class HomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.fragview;
+      FrameLayout fragview = rootView.findViewById(id);
+      if (fragview == null) {
+        break missingId;
+      }
+
+      ConstraintLayout linearLayoutCompat = (ConstraintLayout) rootView;
+
       id = R.id.nav;
       BottomNavigationView nav = rootView.findViewById(id);
       if (nav == null) {
         break missingId;
       }
 
-      return new HomeBinding((LinearLayoutCompat) rootView, nav);
+      return new HomeBinding((ConstraintLayout) rootView, fragview, linearLayoutCompat, nav);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -61,6 +61,18 @@
         style="?attr/materialButtonOutlinedStyle"/>
 
     <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_gravity="end"
+        app:borderWidth="0dp"
+        android:gravity="center"
+        android:textColor="#F44336"
+        app:rippleColor="#f2eac9"
+        style="?attr/materialButtonOutlinedStyle"/>
+
+    <Button
         android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

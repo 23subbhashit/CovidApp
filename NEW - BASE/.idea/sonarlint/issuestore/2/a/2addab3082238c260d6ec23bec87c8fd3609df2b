@@ -1,17 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ê¿˜Üøÿÿÿÿ
->
-java:S1604"(Make this anonymous inner class a lambda(±Ä­”
-C
-java:S1604%"(Make this anonymous inner class a lambda(‹€ÐÇüÿÿÿÿ
-m
-java:S1450"RRemove the "log" field and declare it as a local variable in the relevant methods.(±îž¶øÿÿÿÿ
-p
-java:S1450"URemove the "submit" field and declare it as a local variable in the relevant methods.(±îž¶øÿÿÿÿ
-<
-java:S1659"&Declare "password" on a separate line.(…é¶ê
-<
-java:S1659"!Declare "log" on a separate line.(±îž¶øÿÿÿÿ
-=
-java:S1659""Declare "pass" on a separate line.(“»‘ûÿÿÿÿ
-Q	java:S125;"<This block of commented-out lines of code should be removed.(¹•èÞ

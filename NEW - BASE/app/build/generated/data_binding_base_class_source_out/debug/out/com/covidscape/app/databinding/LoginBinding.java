@@ -33,6 +33,9 @@ public final class LoginBinding implements ViewBinding {
   public final TextInputLayout passwordF;
 
   @NonNull
+  public final Button reset;
+
+  @NonNull
   public final Button signup;
 
   @NonNull
@@ -40,12 +43,14 @@ public final class LoginBinding implements ViewBinding {
 
   private LoginBinding(@NonNull LinearLayoutCompat rootView, @NonNull TextInputEditText email,
       @NonNull TextInputLayout emailF, @NonNull TextInputEditText password,
-      @NonNull TextInputLayout passwordF, @NonNull Button signup, @NonNull Button submit) {
+      @NonNull TextInputLayout passwordF, @NonNull Button reset, @NonNull Button signup,
+      @NonNull Button submit) {
     this.rootView = rootView;
     this.email = email;
     this.emailF = emailF;
     this.password = password;
     this.passwordF = passwordF;
+    this.reset = reset;
     this.signup = signup;
     this.submit = submit;
   }
@@ -101,6 +106,12 @@ public final class LoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.reset;
+      Button reset = rootView.findViewById(id);
+      if (reset == null) {
+        break missingId;
+      }
+
       id = R.id.signup;
       Button signup = rootView.findViewById(id);
       if (signup == null) {
@@ -114,7 +125,7 @@ public final class LoginBinding implements ViewBinding {
       }
 
       return new LoginBinding((LinearLayoutCompat) rootView, email, emailF, password, passwordF,
-          signup, submit);
+          reset, signup, submit);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

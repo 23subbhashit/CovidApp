@@ -23,6 +23,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Covidscape" >
+        <activity android:name="com.covidscape.app.reset_pass" />
         <activity android:name="com.covidscape.app.home" />
         <activity android:name="com.covidscape.app.signup" />
         <activity android:name="com.covidscape.app.login" />

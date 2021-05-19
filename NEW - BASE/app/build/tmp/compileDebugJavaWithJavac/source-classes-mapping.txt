@@ -4,6 +4,8 @@ com/covidscape/app/login.java
  com.covidscape.app.login
  com.covidscape.app.login$1
  com.covidscape.app.login$2
+ com.covidscape.app.login$3
+ com.covidscape.app.login$4
 com/covidscape/app/MainActivity.java
  com.covidscape.app.MainActivity
  com.covidscape.app.MainActivity$1
@@ -17,6 +19,8 @@ com/covidscape/app/signup.java
  com.covidscape.app.signup
  com.covidscape.app.signup$1
  com.covidscape.app.signup$2
+ com.covidscape.app.signup$3
+ com.covidscape.app.signup$4
 com/covidscape/app/news.java
  com.covidscape.app.news
 com/covidscape/app/databinding/FragmentDashBinding.java
@@ -27,15 +31,23 @@ com/covidscape/app/databinding/LoginBinding.java
  com.covidscape.app.databinding.LoginBinding
 com/covidscape/app/databinding/FragmentMythBinding.java
  com.covidscape.app.databinding.FragmentMythBinding
+com/covidscape/app/databinding/ResetPassBinding.java
+ com.covidscape.app.databinding.ResetPassBinding
 com/covidscape/app/databinding/SignupBinding.java
  com.covidscape.app.databinding.SignupBinding
 com/covidscape/app/BuildConfig.java
  com.covidscape.app.BuildConfig
 com/covidscape/app/databinding/FragmentUserBinding.java
  com.covidscape.app.databinding.FragmentUserBinding
+com/covidscape/app/reset_pass.java
+ com.covidscape.app.reset_pass
+ com.covidscape.app.reset_pass$1
+ com.covidscape.app.reset_pass$2
 com/covidscape/app/home.java
  com.covidscape.app.home
+ com.covidscape.app.home$1
 com/covidscape/app/user.java
  com.covidscape.app.user
+ com.covidscape.app.user$1
 com/covidscape/app/databinding/HomeBinding.java
  com.covidscape.app.databinding.HomeBinding

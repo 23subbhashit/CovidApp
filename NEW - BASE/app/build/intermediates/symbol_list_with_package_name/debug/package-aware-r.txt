@@ -1998,9 +1998,11 @@ id light
 id line1
 id line3
 id linear
+id linearLayoutCompat
 id listMode
 id list_item
 id log
+id logout
 id masked
 id material_clock_display
 id material_clock_face
@@ -2095,6 +2097,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id reset
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2366,6 +2369,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout reset_pass
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

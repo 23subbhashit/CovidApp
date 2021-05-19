@@ -1,13 +1,0 @@
-
-C
-java:S1604"(Make this anonymous inner class a lambda(ÍÌÖŸøÿÿÿÿ
-C
-java:S1604"(Make this anonymous inner class a lambda(‹€ĞÇüÿÿÿÿ
-E
-java:S1604&"(Make this anonymous inner class a lambda(Şğ¡8‰å’ö—/
-p
-java:S1450"SRemove the "home" field and declare it as a local variable in the relevant methods.(úÃÿ8èÀ¨ö—/
-h
-java:S1450"RRemove the "log" field and declare it as a local variable in the relevant methods.(§ùª½
-n
-java:S1450"SRemove the "sign" field and declare it as a local variable in the relevant methods.(‹ÍË§üÿÿÿÿ
