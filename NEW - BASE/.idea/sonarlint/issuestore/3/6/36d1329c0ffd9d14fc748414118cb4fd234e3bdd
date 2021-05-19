@@ -1,0 +1,17 @@
+
+u
+java:S26379"ZParameter 2 to this call is marked "androidx.annotation.NonNull" but null could be passed.(ó©ØÐûÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”Ñ¹Úûÿÿÿÿ
+>
+java:S1604""(Make this anonymous inner class a lambda(‘³’ª
+[
+java:S1128"@Remove this unused import 'androidx.navigation.ui.NavigationUI'.(„¾¯Êüÿÿÿÿ
+V
+java:S1128";Remove this unused import 'androidx.navigation.Navigation'.(ÄíÚÀÿÿÿÿÿ
+^
+java:S1128	"HRemove this unused import 'androidx.fragment.app.FragmentContainerView'.(Ÿ´äÙ
+Y
+java:S1128
+">Remove this unused import 'androidx.navigation.NavController'.(ˆç×ƒÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(éº±ˆùÿÿÿÿ
+<	java:S131'""Add a default case to this switch.(øå´¡ÿÿÿÿÿ
