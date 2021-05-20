@@ -7,19 +7,19 @@
     tools:context=".MainActivity3">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        >
+        android:padding="10dp">
 
         <TextView
+            android:id="@+id/tv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textColor="#000"
-            android:textSize="24sp"
-            android:text="Demo Text"
             android:layout_marginBottom="5dp"
-            android:id="@+id/tv"/>
+            android:text="Demo Text"
+            android:textColor="#000"
+            android:textSize="24sp" />
 
     </ScrollView>
 

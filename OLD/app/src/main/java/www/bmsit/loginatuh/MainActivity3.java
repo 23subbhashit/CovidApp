@@ -2,7 +2,11 @@ package www.bmsit.loginatuh;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.List;
@@ -16,13 +20,15 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity3 extends AppCompatActivity {
     TextView tv;
     String url="https://jsonplaceholder.typicode.com/";
+//    Button b;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         tv=(TextView)findViewById(R.id.tv);
         tv.setText("");
-
+//        b.findViewById(R.id.button);
         Retrofit retrofit=new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -45,5 +51,14 @@ public class MainActivity3 extends AppCompatActivity {
 
             }
         });
+
+//        b.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(MainActivity3.this, JsonParser.class);
+//                startActivity(i);
+//            }
+//        });
     }
+
 }

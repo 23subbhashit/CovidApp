@@ -1,16 +1,10 @@
 package www.bmsit.loginatuh;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.animation.LinearInterpolator;
-
-import com.agrawalsuneet.dotsloader.loaders.LazyLoader;
-import com.agrawalsuneet.dotsloader.loaders.LightsLoader;
-import com.airbnb.lottie.LottieAnimationView;
 
 public class MainActivity extends AppCompatActivity {
     //LazyLoader lights;
@@ -33,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                Intent i = new Intent(MainActivity.this, MainActivity3.class);
+                Intent i = new Intent(MainActivity.this, /*MainActivity3.class*/ JParse.class);
                 startActivity(i);
                 finish();
             }

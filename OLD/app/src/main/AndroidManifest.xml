@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="www.bmsit.loginatuh">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".JParse"></activity>
+        <activity android:name=".MainActivity3" />
         <activity
             android:name=".RegisterPage"
             android:screenOrientation="portrait" />
