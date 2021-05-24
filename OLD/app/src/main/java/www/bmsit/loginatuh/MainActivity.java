@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                Intent i = new Intent(MainActivity.this, /*MainActivity3.class*/ JParse.class);
+                Intent i = new Intent(MainActivity.this, MainActivity3.class);
                 startActivity(i);
                 finish();
             }
