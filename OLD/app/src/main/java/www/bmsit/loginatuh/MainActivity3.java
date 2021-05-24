@@ -32,7 +32,7 @@ public class MainActivity3 extends AppCompatActivity implements OnRecyclerViewIt
         final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         mainRecycler.setLayoutManager(linearLayoutManager);
         final APIInterface apiService = APIClient.getClient().create(APIInterface.class);
-        Call<ResponseModel> call = apiService.getLatestNews("techcrunch", API_KEY);
+        Call<ResponseModel> call = apiService.getLatestNews("covid", API_KEY);
         call.enqueue(new Callback<ResponseModel>() {
             @Override
             public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
