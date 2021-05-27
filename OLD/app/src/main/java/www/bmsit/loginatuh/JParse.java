@@ -1,6 +1,8 @@
 package www.bmsit.loginatuh;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -17,15 +19,13 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class JParse extends AppCompatActivity {
     private List<covidModel> covidData;
-    private TextView parsedData;
+    private List<covidModel> indiaData = new ArrayList<covidModel>();
     private String url = "https://covid19.mathdro.id/api/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jparse);
         String data = "";
-        parsedData = findViewById(R.id.ParsedData);
-        parsedData.setText("");
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
@@ -39,16 +39,20 @@ public class JParse extends AppCompatActivity {
         call.enqueue(new Callback<List<covidModel>>() {
             @Override
             public void onResponse(Call<List<covidModel>> call, Response<List<covidModel>> response) {
-                covidData = (List<covidModel>) response.body();
-
+                covidData = response.body();
 
                 for (int i = 0; i < covidData.size(); i++) {
-                    if (covidData.get(i).getCountryRegion().equalsIgnoreCase("india"))
-                        parsedData.append("\nState :" + covidData.get(i).getProvinceState() +
-                                "\nConfirmed :" + covidData.get(i).getConfirmed() +
-                                "\nActive :" + covidData.get(i).getActive() +
-                                "\nDeaths :" + covidData.get(i).getDeaths());
+                    if(covidData.get(i).getCountryRegion().equalsIgnoreCase( "India")) {
+                        indiaData.add(covidData.get(i));
+                    }
                 }
+                System.out.println("----------------------------------------------------------------------------------------");
+                for (int i = 0; i < indiaData.size(); i++) {
+                    System.out.println("Country: " + indiaData.get(i).getCountryRegion());
+                    System.out.println("Deaths: " + indiaData.get(i).getDeaths());
+                }
+
+                initRecyclerView();
             }
 
             @Override
@@ -57,5 +61,12 @@ public class JParse extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void initRecyclerView(){
+        RecyclerView recyclerView = findViewById(R.id.parseDisplay);
+        RecyclerAdapter adapter = new RecyclerAdapter(indiaData, this);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 }
