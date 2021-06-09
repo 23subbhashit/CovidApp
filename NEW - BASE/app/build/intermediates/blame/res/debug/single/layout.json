@@ -1,38 +1,54 @@
 [
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\splash.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\listview_layout.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\listview_layout.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\reset_pass.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\reset_pass.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
-        "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_jparse.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_jparse.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_main_article_adapter.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\row_main_article_adapter.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\reset_pass.xml",
+        "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\layout\\reset_pass.xml"
     }
 ]

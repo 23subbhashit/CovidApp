@@ -1,64 +1,77 @@
 package com.covidscape.app;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link news#newInstance} factory method to
- * create an instance of this fragment.
- */
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
+
 public class news extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    TextView tv;
+    private static final String API_KEY = "cd6ba9fe4f644dc692dee61ce9c7718d";
 
     public news() {
-        // Required empty public constructor
-    }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment news.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static news newInstance(String param1, String param2) {
-        news fragment = new news();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_news, container, false);
+        View view = inflater.inflate(R.layout.fragment_news, container, false);
+        super.onCreate(savedInstanceState);
+
+        final RecyclerView mainRecycler = view.findViewById(R.id.activity_main_rv);
+        final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
+        mainRecycler.setLayoutManager(linearLayoutManager);
+        final APIInterface apiService = APIClient.getClient().create(APIInterface.class);
+        Call<ResponseModel> call = apiService.getLatestNews("covid", "publishedAt", API_KEY);
+        call.enqueue(new Callback<ResponseModel>() {
+            @Override
+            public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
+                if (response.body().getStatus().equals("ok")) {
+                    List<Article> articleList = response.body().getArticles();
+                    if (articleList.size() > 0) {
+                        final MainArticleAdapter mainArticleAdapter = new MainArticleAdapter(articleList);
+                        mainArticleAdapter.setOnRecyclerViewItemClickListener(getActivity());
+                        mainRecycler.setAdapter(mainArticleAdapter);
+                    }
+                }
+            }
+
+            public void onFailure(Call<ResponseModel> call, Throwable t) {
+                Log.e("out", t.toString());
+            }
+        });
+        return view;
+    }
+
+    protected void onItemClick(int position, View view) {
+        switch (view.getId()) {
+            case R.id.article_adapter_ll_parent:
+                Article article = (Article) view.getTag();
+                if (!TextUtils.isEmpty(article.getUrl())) {
+                    Log.e("clicked url", article.getUrl());
+                    Intent webActivity = new Intent(getActivity(), JParse.class);
+                    webActivity.putExtra("url", article.getUrl());
+                    startActivity(webActivity);
+                }
+                break;
+        }
+
     }
 }

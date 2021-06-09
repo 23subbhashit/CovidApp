@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

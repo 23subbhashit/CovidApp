@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
+            "outputFile": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\58d63c06447045c95c26ab38260f1410\\jetified-play-services-basement-17.1.0\\res\\values-pt-rPT\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "203",
+                        "endOffsets": "454"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4596",
+                        "endColumns": "203",
+                        "endOffsets": "4795"
+                    }
+                },
                 {
                     "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\0e3c88a331ceecb7a99e41bbf366c3dc\\core-1.3.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "from": {
@@ -57,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\52eadff310940fb1de2efef9f437e8f6\\play-services-base-17.1.0\\res\\values-pt-rPT\\values.xml",
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\52eadff310940fb1de2efef9f437e8f6\\jetified-play-services-base-17.1.0\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -88,23 +105,6 @@
                         "startOffsets": "278,386,492,599,688,789,913,998,1078,1170,1264,1361,1455,1554,1648,1744,1839,1931,2023,2108,2215,2326,2428,2536,2644,2751,2922,10509",
                         "endColumns": "107,105,106,88,100,123,84,79,91,93,96,93,98,93,95,94,91,91,84,106,110,101,107,107,106,170,98,85",
                         "endOffsets": "381,487,594,683,784,908,993,1073,1165,1259,1356,1450,1549,1643,1739,1834,1926,2018,2103,2210,2321,2423,2531,2639,2746,2917,3016,10590"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\58d63c06447045c95c26ab38260f1410\\play-services-basement-17.1.0\\res\\values-pt-rPT\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "203",
-                        "endOffsets": "454"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4596",
-                        "endColumns": "203",
-                        "endOffsets": "4795"
                     }
                 }
             ]

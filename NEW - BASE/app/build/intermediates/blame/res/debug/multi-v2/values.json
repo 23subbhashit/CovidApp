@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\52eadff310940fb1de2efef9f437e8f6\\play-services-base-17.1.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "215,301,377,463,549,625,702,778,951,1052,1233,1354,1457,1637,1756,1868,1967,2155,2256,2437,2558,2733,2877,2936,2994,3164,3475",
-                        "endLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,45,64",
-                        "endColumns": "85,75,85,85,75,76,75,75,100,180,120,102,179,118,111,98,187,100,180,120,174,143,58,57,74,20,20",
-                        "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1867,1966,2154,2255,2436,2557,2732,2876,2935,2993,3068,3474,3887"
-                    },
-                    "to": {
-                        "startLines": "422,423,424,425,426,427,428,429,1084,1085,1086,1087,1088,1089,1090,1091,1093,1094,1095,1096,1097,1098,1099,1100,1101,6749,7432",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "20826,20916,20996,21086,21176,21256,21337,21417,64194,64299,64480,64605,64712,64892,65015,65131,65401,65589,65694,65875,66000,66175,66323,66386,66448,444211,479758",
-                        "endLines": "422,423,424,425,426,427,428,429,1084,1085,1086,1087,1088,1089,1090,1091,1093,1094,1095,1096,1097,1098,1099,1100,1101,6761,7450",
-                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
-                        "endOffsets": "20911,20991,21081,21171,21251,21332,21412,21492,64294,64475,64600,64707,64887,65010,65126,65229,65584,65689,65870,65995,66170,66318,66381,66443,66522,444521,480170"
-                    }
-                },
                 {
                     "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\133195072f04119e17f50d25b02ee6be\\navigation-fragment-2.3.5\\res\\values\\values.xml",
                     "from": {
@@ -42,23 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "405,506,507,508,519,520,523",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19645,26647,26694,26741,27485,27530,27696",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19682,26689,26736,26783,27525,27570,27733"
-                    }
-                },
-                {
                     "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\4559fde225dfc7f2ceca7136ef8f9893\\transition-1.3.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -76,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,6,1,12,9,8,10,3,4,2,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "224,288,17,655,462,395,539,122,170,66,346",
+                        "endColumns": "62,56,47,69,75,65,55,46,52,54,47",
+                        "endOffsets": "282,340,60,720,533,456,590,164,218,116,389"
+                    },
+                    "to": {
+                        "startLines": "1073,1074,1075,1113,1116,1117,1119,1178,1179,1182,1183",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "63082,63145,63202,67753,68130,68206,68331,78085,78132,78309,78364",
+                        "endColumns": "62,56,47,69,75,65,55,46,52,54,47",
+                        "endOffsets": "63140,63197,63245,67818,68201,68267,68382,78127,78180,78359,78407"
+                    }
+                },
+                {
                     "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\398c94e449f58b6ed43883fad3550c07\\browser-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
@@ -90,6 +71,42 @@
                         "startOffsets": "20213,20271,20337,20400,33276,33347",
                         "endColumns": "57,65,62,61,70,71",
                         "endOffsets": "20266,20332,20395,20457,33342,33414"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\a5d6f0b9d10ec54653b92d596f944eb4\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "24",
+                        "endOffsets": "160"
+                    },
+                    "to": {
+                        "startLines": "8187",
+                        "startColumns": "4",
+                        "startOffsets": "522263",
+                        "endLines": "8189",
+                        "endColumns": "24",
+                        "endOffsets": "522368"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\58d63c06447045c95c26ab38260f1410\\jetified-play-services-basement-17.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "238,401",
+                        "endColumns": "63,166",
+                        "endOffsets": "301,567"
+                    },
+                    "to": {
+                        "startLines": "1028,1092",
+                        "startColumns": "4,4",
+                        "startOffsets": "60021,65234",
+                        "endColumns": "67,166",
+                        "endOffsets": "60084,65396"
                     }
                 },
                 {
@@ -127,20 +144,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "90,149",
-                        "endColumns": "57,55",
-                        "endOffsets": "143,200"
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
                     },
                     "to": {
-                        "startLines": "603,604",
-                        "startColumns": "4,4",
-                        "startOffsets": "33097,33155",
-                        "endColumns": "57,55",
-                        "endOffsets": "33150,33206"
+                        "startLines": "405,506,507,508,519,520,523",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19645,26647,26694,26741,27485,27530,27696",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19682,26689,26736,26783,27525,27570,27733"
                     }
                 },
                 {
@@ -163,6 +180,25 @@
                     }
                 },
                 {
+                    "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "831"
+                    },
+                    "to": {
+                        "startLines": "3707",
+                        "startColumns": "4",
+                        "startOffsets": "246168",
+                        "endLines": "3719",
+                        "endColumns": "12",
+                        "endOffsets": "246883"
+                    }
+                },
+                {
                     "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\0e3c88a331ceecb7a99e41bbf366c3dc\\core-1.3.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,83,84,88,89,90,91,98,141,173,210",
@@ -179,23 +215,6 @@
                         "endLines": "399,400,495,496,612,613,614,615,616,617,618,895,896,897,898,899,900,901,902,903,904,905,906,907,908,909,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,969,970,992,993,994,995,996,997,998,999,1000,1001,1009,1041,1181,3535,3539,3541,3547,3549,4115,4116,6274,6550,6582,6637,6644",
                         "endColumns": "71,87,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "19233,19321,25902,25965,33709,33777,33849,33919,33980,34054,34127,52475,52536,52598,52662,52724,52785,52853,52953,53013,53079,53152,53221,53278,53330,53392,54471,54547,54612,54671,54730,54790,54850,54910,54970,55030,55090,55150,55210,55270,55330,55389,55449,55509,55569,55629,55689,55749,55809,55869,55929,55989,56048,56108,56168,56227,56286,56345,56404,56463,56522,57006,57041,58145,58208,58263,58321,58378,58428,58489,58546,58580,58615,58997,60891,78304,235520,235721,235897,236281,236476,276874,276941,399805,428175,430240,432746,433123"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "5,6,1,12,9,8,10,3,4,2,7",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "224,288,17,655,462,395,539,122,170,66,346",
-                        "endColumns": "62,56,47,69,75,65,55,46,52,54,47",
-                        "endOffsets": "282,340,60,720,533,456,590,164,218,116,389"
-                    },
-                    "to": {
-                        "startLines": "1073,1074,1075,1113,1116,1117,1119,1178,1179,1182,1183",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "63082,63145,63202,67753,68130,68206,68331,78085,78132,78309,78364",
-                        "endColumns": "62,56,47,69,75,65,55,46,52,54,47",
-                        "endOffsets": "63140,63197,63245,67818,68201,68267,68382,78127,78180,78359,78407"
                     }
                 },
                 {
@@ -218,6 +237,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\52eadff310940fb1de2efef9f437e8f6\\jetified-play-services-base-17.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "215,301,377,463,549,625,702,778,951,1052,1233,1354,1457,1637,1756,1868,1967,2155,2256,2437,2558,2733,2877,2936,2994,3164,3475",
+                        "endLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,45,64",
+                        "endColumns": "85,75,85,85,75,76,75,75,100,180,120,102,179,118,111,98,187,100,180,120,174,143,58,57,74,20,20",
+                        "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1867,1966,2154,2255,2436,2557,2732,2876,2935,2993,3068,3474,3887"
+                    },
+                    "to": {
+                        "startLines": "422,423,424,425,426,427,428,429,1084,1085,1086,1087,1088,1089,1090,1091,1093,1094,1095,1096,1097,1098,1099,1100,1101,6749,7432",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "20826,20916,20996,21086,21176,21256,21337,21417,64194,64299,64480,64605,64712,64892,65015,65131,65401,65589,65694,65875,66000,66175,66323,66386,66448,444211,479758",
+                        "endLines": "422,423,424,425,426,427,428,429,1084,1085,1086,1087,1088,1089,1090,1091,1093,1094,1095,1096,1097,1098,1099,1100,1101,6761,7450",
+                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
+                        "endOffsets": "20911,20991,21081,21171,21251,21332,21412,21492,64294,64475,64600,64707,64887,65010,65126,65229,65584,65689,65870,65995,66170,66318,66381,66443,66522,444521,480170"
+                    }
+                },
+                {
                     "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\6779e51504f45ab4285b66f419a0b1b7\\navigation-runtime-2.3.5\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -234,6 +272,25 @@
                         "endLines": "980,5047,7183,7189",
                         "endColumns": "52,24,24,24",
                         "endOffsets": "57571,334307,465945,466187"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\48fea210a683a9d22e8e3671ab5ae36d\\jetified-appcompat-resources-1.2.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,29,36,47,74",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,1702,2087,2684,4317",
+                        "endLines": "28,35,46,73,78",
+                        "endColumns": "24,24,24,24,24",
+                        "endOffsets": "1697,2082,2679,4312,4582"
+                    },
+                    "to": {
+                        "startLines": "5058,5085,5092,7546,7573",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "334829,336476,336861,485176,486809",
+                        "endLines": "5084,5091,5102,7572,7577",
+                        "endColumns": "24,24,24,24,24",
+                        "endOffsets": "336471,336856,337453,486804,487074"
                     }
                 },
                 {
@@ -256,20 +313,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,304,386,490,599,719,813",
-                        "endColumns": "143,104,81,103,108,119,93,70",
-                        "endOffsets": "194,299,381,485,594,714,808,879"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "90,149",
+                        "endColumns": "57,55",
+                        "endOffsets": "143,200"
                     },
                     "to": {
-                        "startLines": "1102,1107,1108,1109,1110,1111,1112,1177",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "66527,67139,67244,67326,67430,67539,67659,78014",
-                        "endColumns": "143,104,81,103,108,119,93,70",
-                        "endOffsets": "66666,67239,67321,67425,67534,67654,67748,78080"
+                        "startLines": "603,604",
+                        "startColumns": "4,4",
+                        "startOffsets": "33097,33155",
+                        "endColumns": "57,55",
+                        "endOffsets": "33150,33206"
                     }
                 },
                 {
@@ -349,25 +406,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shree\\Documents\\GitHub\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "831"
-                    },
-                    "to": {
-                        "startLines": "3707",
-                        "startColumns": "4",
-                        "startOffsets": "246168",
-                        "endLines": "3719",
-                        "endColumns": "12",
-                        "endOffsets": "246883"
-                    }
-                },
-                {
                     "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\a362cc514ab9c05960a7b5d52099ee7b\\navigation-ui-2.3.5\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -382,25 +420,6 @@
                         "startOffsets": "59776,77049,77125",
                         "endColumns": "52,75,86",
                         "endOffsets": "59824,77120,77207"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\a5d6f0b9d10ec54653b92d596f944eb4\\viewpager2-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "24",
-                        "endOffsets": "160"
-                    },
-                    "to": {
-                        "startLines": "8187",
-                        "startColumns": "4",
-                        "startOffsets": "522263",
-                        "endLines": "8189",
-                        "endColumns": "24",
-                        "endOffsets": "522368"
                     }
                 },
                 {
@@ -423,20 +442,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\58d63c06447045c95c26ab38260f1410\\play-services-basement-17.1.0\\res\\values\\values.xml",
+                    "source": "E:\\Excecution\\Android\\Covidon\\NEW - BASE\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "4,7",
-                        "startColumns": "0,0",
-                        "startOffsets": "238,401",
-                        "endColumns": "63,166",
-                        "endOffsets": "301,567"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,304,386,490,599,719,813",
+                        "endColumns": "143,104,81,103,108,119,93,70",
+                        "endOffsets": "194,299,381,485,594,714,808,879"
                     },
                     "to": {
-                        "startLines": "1028,1092",
-                        "startColumns": "4,4",
-                        "startOffsets": "60021,65234",
-                        "endColumns": "67,166",
-                        "endOffsets": "60084,65396"
+                        "startLines": "1102,1107,1108,1109,1110,1111,1112,1177",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "66527,67139,67244,67326,67430,67539,67659,78014",
+                        "endColumns": "143,104,81,103,108,119,93,70",
+                        "endOffsets": "66666,67239,67321,67425,67534,67654,67748,78080"
                     }
                 },
                 {
@@ -456,25 +475,6 @@
                         "endLines": "315,670,671,672,680,681,682,968,7326",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "15001,37491,37539,37595,38281,38357,38429,56971,474487"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\48fea210a683a9d22e8e3671ab5ae36d\\appcompat-resources-1.2.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,29,36,47,74",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,1702,2087,2684,4317",
-                        "endLines": "28,35,46,73,78",
-                        "endColumns": "24,24,24,24,24",
-                        "endOffsets": "1697,2082,2679,4312,4582"
-                    },
-                    "to": {
-                        "startLines": "5058,5085,5092,7546,7573",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "334829,336476,336861,485176,486809",
-                        "endLines": "5084,5091,5102,7572,7577",
-                        "endColumns": "24,24,24,24,24",
-                        "endOffsets": "336471,336856,337453,486804,487074"
                     }
                 }
             ]
