@@ -32,9 +32,8 @@ com/covidscape/app/databinding/ActivityMainBinding.java
  com.covidscape.app.databinding.ActivityMainBinding
 com/covidscape/app/covidModel.java
  com.covidscape.app.covidModel
-com/covidscape/app/news.java
- com.covidscape.app.news
- com.covidscape.app.news$1
+com/covidscape/app/databinding/FragmentUserBinding.java
+ com.covidscape.app.databinding.FragmentUserBinding
 com/covidscape/app/databinding/FragmentNewsBinding.java
  com.covidscape.app.databinding.FragmentNewsBinding
 com/covidscape/app/Article.java
@@ -49,17 +48,17 @@ com/covidscape/app/reset_pass.java
  com.covidscape.app.reset_pass
  com.covidscape.app.reset_pass$1
  com.covidscape.app.reset_pass$2
-com/covidscape/app/home.java
- com.covidscape.app.home
- com.covidscape.app.home$1
+com/covidscape/app/Splash.java
+ com.covidscape.app.Splash
+ com.covidscape.app.Splash$1
 com/covidscape/app/JParse.java
  com.covidscape.app.JParse
  com.covidscape.app.JParse$1
 com/covidscape/app/user.java
  com.covidscape.app.user
  com.covidscape.app.user$1
-com/covidscape/app/APIInterface.java
- com.covidscape.app.APIInterface
+com/covidscape/app/databinding/HomeBinding.java
+ com.covidscape.app.databinding.HomeBinding
 com/covidscape/app/ResponseModel.java
  com.covidscape.app.ResponseModel
 com/covidscape/app/databinding/ActivityJparseBinding.java
@@ -82,10 +81,11 @@ com/covidscape/app/SourceModel.java
  com.covidscape.app.SourceModel
 com/covidscape/app/BuildConfig.java
  com.covidscape.app.BuildConfig
-com/covidscape/app/databinding/FragmentUserBinding.java
- com.covidscape.app.databinding.FragmentUserBinding
-com/covidscape/app/Splash.java
- com.covidscape.app.Splash
- com.covidscape.app.Splash$1
-com/covidscape/app/databinding/HomeBinding.java
- com.covidscape.app.databinding.HomeBinding
+com/covidscape/app/APIInterface.java
+ com.covidscape.app.APIInterface
+com/covidscape/app/home.java
+ com.covidscape.app.home
+ com.covidscape.app.home$1
+com/covidscape/app/news.java
+ com.covidscape.app.news
+ com.covidscape.app.news$1

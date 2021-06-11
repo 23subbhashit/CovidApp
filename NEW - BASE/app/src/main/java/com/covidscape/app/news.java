@@ -20,7 +20,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 
-public class news extends Fragment {
+public class news extends Fragment implements OnRecyclerViewItemClickListener{
 
     TextView tv;
     private static final String API_KEY = "cd6ba9fe4f644dc692dee61ce9c7718d";
@@ -39,7 +39,7 @@ public class news extends Fragment {
         final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
         mainRecycler.setLayoutManager(linearLayoutManager);
         final APIInterface apiService = APIClient.getClient().create(APIInterface.class);
-        Call<ResponseModel> call = apiService.getLatestNews("covid", "publishedAt", API_KEY);
+        Call<ResponseModel> call = apiService.getLatestNews("covid",100, "publishedAt", API_KEY);
         call.enqueue(new Callback<ResponseModel>() {
             @Override
             public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
@@ -47,7 +47,7 @@ public class news extends Fragment {
                     List<Article> articleList = response.body().getArticles();
                     if (articleList.size() > 0) {
                         final MainArticleAdapter mainArticleAdapter = new MainArticleAdapter(articleList);
-                        mainArticleAdapter.setOnRecyclerViewItemClickListener(getActivity());
+                        //mainArticleAdapter.setOnRecyclerViewItemClickListener(getActivity());
                         mainRecycler.setAdapter(mainArticleAdapter);
                     }
                 }
@@ -59,8 +59,8 @@ public class news extends Fragment {
         });
         return view;
     }
-
-    protected void onItemClick(int position, View view) {
+    @Override
+    public void onItemClick(int position, View view) {
         switch (view.getId()) {
             case R.id.article_adapter_ll_parent:
                 Article article = (Article) view.getTag();
