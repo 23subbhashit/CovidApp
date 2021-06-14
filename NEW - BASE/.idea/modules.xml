@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Covidscape.iml" filepath="$PROJECT_DIR$/.idea/modules/Covidscape.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Covidscape.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Covidscape.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Covidscape.iml" filepath="$PROJECT_DIR$/.idea/modules/Covidscape.iml" group="Covidscape" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Covidscape/app" />
     </modules>
   </component>
 </project>

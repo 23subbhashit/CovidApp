@@ -66,7 +66,7 @@ public class news extends Fragment implements OnRecyclerViewItemClickListener{
                 Article article = (Article) view.getTag();
                 if (!TextUtils.isEmpty(article.getUrl())) {
                     Log.e("clicked url", article.getUrl());
-                    Intent webActivity = new Intent(getActivity(), JParse.class);
+                    Intent webActivity = new Intent(getActivity(), MainActivity.class);
                     webActivity.putExtra("url", article.getUrl());
                     startActivity(webActivity);
                 }
