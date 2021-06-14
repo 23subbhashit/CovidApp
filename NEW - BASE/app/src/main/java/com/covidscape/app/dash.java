@@ -98,9 +98,11 @@ public class dash extends Fragment {
                     JSONObject object = new JSONObject(response);
 
                     // From that object we are fetching data
-                    JSONObject object1 = object.getJSONObject("Uttar Pradesh");
+                    JSONObject object1 = object.getJSONObject("Karnataka");
                     JSONObject object2 = object1.getJSONObject("districtData");
-                    JSONObject object3 = object2.getJSONObject("Prayagraj");
+
+
+                    JSONObject object3 = object2.getJSONObject("Bagalkote");
                     JSONObject object4 = object3.getJSONObject("delta");
 
 
@@ -113,13 +115,13 @@ public class dash extends Fragment {
                     String confDec = object4.getString("deceased");
                     String confRec = object4.getString("recovered");
 
-                    model = new Model("Prayagraj", confirmed, deceased, recovered, active,
+                    model = new Model("Bagalkote", confirmed, deceased, recovered, active,
                             confInc, confDec, confRec);
                     // placing data into the app using AdapterClass
                     modelList.add(model);
 
                     // Creating JSON Object
-                    object3 = object2.getJSONObject("Ballia");
+                    object3 = object2.getJSONObject("Ballari");
 
                     // From that object we are fetching data
                     active = object3.getString("active");
@@ -131,32 +133,13 @@ public class dash extends Fragment {
                     confDec = object4.getString("deceased");
                     confRec = object4.getString("recovered");
 
-                    model = new Model("Ballia", confirmed, deceased, recovered, active,
+                    model = new Model("Ballari", confirmed, deceased, recovered, active,
                             confInc, confDec, confRec);
                     // placing data into the app using AdapterClass
                     modelList.add(model);
 
                     // Creating JSON Object
-                    object3 = object2.getJSONObject("Lucknow");
-
-                    // From that object we are fetching data
-                    active = object3.getString("active");
-                    confirmed = object3.getString("confirmed");
-                    deceased = object3.getString("deceased");
-                    recovered = object3.getString("recovered");
-                    object4 = object3.getJSONObject("delta");
-
-                    confInc = object4.getString("confirmed");
-                    confDec = object4.getString("deceased");
-                    confRec = object4.getString("recovered");
-
-                    model = new Model("Lucknow", confirmed, deceased, recovered, active,
-                            confInc, confDec, confRec);
-                    // placing data into the app using AdapterClass
-                    modelList.add(model);
-
-                    // Creating JSON Object
-                    object3 = object2.getJSONObject("Varanasi");
+                    object3 = object2.getJSONObject("Belagavi");
 
                     // From that object we are fetching data
                     active = object3.getString("active");
@@ -169,13 +152,32 @@ public class dash extends Fragment {
                     confDec = object4.getString("deceased");
                     confRec = object4.getString("recovered");
 
-                    model = new Model("Varanasi", confirmed, deceased, recovered, active,
+                    model = new Model("Belagavi", confirmed, deceased, recovered, active,
                             confInc, confDec, confRec);
                     // placing data into the app using AdapterClass
                     modelList.add(model);
 
                     // Creating JSON Object
-                    object3 = object2.getJSONObject("Agra");
+                    object3 = object2.getJSONObject("Bengaluru Rural");
+
+                    // From that object we are fetching data
+                    active = object3.getString("active");
+                    confirmed = object3.getString("confirmed");
+                    deceased = object3.getString("deceased");
+                    recovered = object3.getString("recovered");
+                    object4 = object3.getJSONObject("delta");
+
+                    confInc = object4.getString("confirmed");
+                    confDec = object4.getString("deceased");
+                    confRec = object4.getString("recovered");
+
+                    model = new Model("Bengaluru Rural", confirmed, deceased, recovered, active,
+                            confInc, confDec, confRec);
+                    // placing data into the app using AdapterClass
+                    modelList.add(model);
+
+                    // Creating JSON Object
+                    object3 = object2.getJSONObject("Bengaluru Urban");
 
                     // From that object we are fetching data
                     active = object3.getString("active");
@@ -187,10 +189,33 @@ public class dash extends Fragment {
                     confDec = object4.getString("deceased");
                     confRec = object4.getString("recovered");
 
-                    model = new Model("Agra", confirmed, deceased, recovered, active,
+                    model = new Model("Bengaluru Urban", confirmed, deceased, recovered, active,
                             confInc, confDec, confRec);
                     // placing data into the app using AdapterClass
                     modelList.add(model);
+
+                    String[] arrData = {"Bidar","Chamarajanagara","Chikkaballapura","Chikkamagaluru","Chitradurga","Dakshina Kannada","Davanagere","Dharwad","Gadag","Hassan","Haveri","Kalaburagi","Kodagu","Kolar","Koppal","Mandya","Mysuru","Other State","Raichur","Ramanagara","Shivamogga","Tumakuru","Udupi","Uttara Kannada","Vijayapura","Yadgir"};
+                    for(int i=0; i< arrData. length; i++){
+                        object3 = object2.getJSONObject(arrData[i]);
+
+                        // From that object we are fetching data
+                        active = object3.getString("active");
+                        confirmed = object3.getString("confirmed");
+                        deceased = object3.getString("deceased");
+                        recovered = object3.getString("recovered");
+                        object4 = object3.getJSONObject("delta");
+                        confInc = object4.getString("confirmed");
+                        confDec = object4.getString("deceased");
+                        confRec = object4.getString("recovered");
+
+                        model = new Model(arrData[i], confirmed, deceased, recovered, active,
+                                confInc, confDec, confRec);
+                        // placing data into the app using AdapterClass
+                        modelList.add(model);
+                    }
+
+
+
 
                     adapter = new Adapter(getActivity(), modelList);
                     listView.setAdapter(adapter);
