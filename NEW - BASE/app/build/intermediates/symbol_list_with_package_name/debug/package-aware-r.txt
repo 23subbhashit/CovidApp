@@ -1005,6 +1005,7 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color active
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
@@ -1028,7 +1029,14 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color cases
 color checkbox_themeable_attribute_color
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color color_one
+color color_two
+color color_white
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1040,6 +1048,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color deaths
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1188,6 +1197,7 @@ color purple_200
 color purple_500
 color purple_700
 color radiobutton_themeable_attribute_color
+color recovered
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1783,6 +1793,7 @@ drawable team_time
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable upward_arrow
 drawable user
 id ALT
 id BOTTOM_END
@@ -1853,6 +1864,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id active
 id activity_chooser_view_content
 id activity_main_rv
 id add
@@ -1916,12 +1928,14 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
+id cured
 id custom
 id customPanel
 id cut
 id dark
 id dash
 id date_picker_actions
+id death
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -1996,6 +2010,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView2
+id incactive
+id inccured
+id incdeath
 id info
 id invisible
 id inward
@@ -2015,6 +2032,7 @@ id line3
 id linear
 id linearLayoutCompat
 id listMode
+id listView
 id list_item
 id log
 id logout
@@ -2173,6 +2191,7 @@ id start
 id startHorizontal
 id startToEnd
 id startVertical
+id state
 id staticLayout
 id staticPostLayout
 id status_bar_latest_event_content
@@ -2202,6 +2221,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2218,6 +2238,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id total
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2309,6 +2330,7 @@ layout activity_jparse
 layout activity_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout city_wise_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2330,6 +2352,7 @@ layout fragment_myth
 layout fragment_news
 layout fragment_user
 layout home
+layout list_view_layout
 layout listview_layout
 layout login
 layout material_chip_input_combo

@@ -1,166 +1,178 @@
 [
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_heal.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\heal.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_reset_pass.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\reset_pass.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\splash.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\dash.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_team_time.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\team_time.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\news.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\calendar.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_signup.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_myth.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me_time.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\me_time.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_home.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\menu\\nav_menu.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\navigation_navi.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\navigation\\navi.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\calendar.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\news.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_signup.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_jparse.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_jparse.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lovely_time.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\lovely_time.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_reset_pass.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\reset_pass.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_friends.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\friends.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_layout.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\listview_layout.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\dash.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_myth.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_view_layout.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\list_view_layout.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable-v24\\logo.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dash.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_home.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_team_time.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\team_time.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_friends.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\friends.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_news.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_family_time.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\family_time.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_main_article_adapter.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\row_main_article_adapter.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_news.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_heal.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\heal.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_layout.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\listview_layout.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_city_wise_layout.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\city_wise_layout.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\splash.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_main_article_adapter.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\row_main_article_adapter.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_family_time.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\family_time.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\bg.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\user.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upward_arrow.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\upward_arrow.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lovely_time.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\lovely_time.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\menu\\nav_menu.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dash.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me_time.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\me_time.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_jparse.xml.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_jparse.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\navigation_navi.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\navigation\\navi.xml"
     },
     {
-        "merged": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
-        "source": "D:\\MINI_ANDROID\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\bg.png"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable\\user.xml"
+    },
+    {
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\drawable-v24\\logo.png"
     }
 ]
