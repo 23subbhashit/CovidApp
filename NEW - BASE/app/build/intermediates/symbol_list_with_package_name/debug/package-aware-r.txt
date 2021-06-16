@@ -1733,6 +1733,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable covid_img
 drawable dash
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1775,6 +1776,10 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable myth_1
+drawable myth_2
+drawable myth_3
+drawable myth_4
 drawable navigation_empty_icon
 drawable news
 drawable notification_action_background

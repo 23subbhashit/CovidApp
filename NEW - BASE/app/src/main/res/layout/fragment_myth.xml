@@ -8,8 +8,9 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
 
 
         <LinearLayout
@@ -17,10 +18,11 @@
             android:background="@drawable/bg"
             android:weightSum="10"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY">
 
             <RelativeLayout
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp">
 
@@ -28,12 +30,13 @@
                     android:id="@+id/textGrid"
                     android:text="COVID MYTHS"
                     android:textSize="34sp"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:layout_centerInParent="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
             </RelativeLayout>
+
 
             <GridLayout
                 android:id="@+id/mainGrid"
@@ -44,7 +47,7 @@
                 android:layout_weight="8"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:padding="14dp"
+                android:padding="10dp"
                 >
 
                 <!-- Row 1 -->
@@ -55,11 +58,12 @@
                     android:layout_height="0dp"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@color/teal_200"
                     >
 
                     <LinearLayout
@@ -67,22 +71,23 @@
                         android:layout_margin="16dp"
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        >
 
                         <ImageView
-                            android:src="@drawable/me_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
                             android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:src="@drawable/myth_1" />
 
                         <TextView
-                            android:text="Me"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Myth 1"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:textColor="#1C5953"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -94,11 +99,12 @@
                     android:layout_height="0dp"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@color/teal_200"
                     >
 
                     <LinearLayout
@@ -109,19 +115,19 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:src="@drawable/family_time"
+                            android:src="@drawable/myth_2"
                             android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp" />
 
                         <TextView
-                            android:text="Family"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:text="Myth 2"
+                            android:textAlignment="center"
+                            android:textColor="#1C5953"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -136,11 +142,12 @@
                     android:layout_height="0dp"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_row="1"
+                    android:layout_column="0"
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@color/teal_200"
                     >
 
                     <LinearLayout
@@ -151,19 +158,19 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:src="@drawable/lovely_time"
+                            android:src="@drawable/myth_3"
                             android:layout_gravity="center_horizontal"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="100dp" />
 
                         <TextView
-                            android:text="Lovely"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Myth 3"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:textColor="#1C5953"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -175,11 +182,12 @@
                     android:layout_height="0dp"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_row="1"
+                    android:layout_column="1"
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@color/teal_200"
                     >
 
                     <LinearLayout
@@ -190,26 +198,26 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
-                            android:src="@drawable/team_time"
+                            android:src="@drawable/myth_4"
                             android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp" />
 
                         <TextView
-                            android:text="Team"
+                            android:text="Myth 4"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
+                            android:textColor="#1C5953"
+                            android:textSize="20sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
 
-                <!-- Row 2 -->
+                <!-- Row 3 -->
 
                 <!-- Column 1 -->
                 <androidx.cardview.widget.CardView
@@ -217,11 +225,12 @@
                     android:layout_height="0dp"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_row="2"
+                    android:layout_column="0"
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@color/teal_200"
                     >
 
                     <LinearLayout
@@ -234,17 +243,17 @@
                         <ImageView
                             android:src="@drawable/friends"
                             android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp" />
 
                         <TextView
-                            android:text="Friends"
+                            android:text="Myth 5"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
+                            android:textColor="#1C5953"
                             android:textSize="18sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
 
                     </LinearLayout>
 
@@ -256,11 +265,12 @@
                     android:layout_height="0dp"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:filterTouchesWhenObscured="true"
+                    android:layout_column="1"
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@color/teal_200"
                     >
 
                     <LinearLayout
@@ -277,245 +287,19 @@
                             android:layout_height="wrap_content" />
 
                         <TextView
-                            android:text="Calendars"
+                            android:text="Myth 6"
                             android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
+                            android:textColor="#1C5953"
+                            android:textSize="20sp"
                             android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            />
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="8dp"
-                    >
-
-                    <LinearLayout
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:layout_margin="16dp"
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:src="@drawable/calendar"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                        <TextView
-                            android:text="Calendars"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="8dp"
-                    >
-
-                    <LinearLayout
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:layout_margin="16dp"
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:src="@drawable/calendar"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                        <TextView
-                            android:text="Calendars"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="8dp"
-                    >
-
-                    <LinearLayout
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:layout_margin="16dp"
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:src="@drawable/calendar"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                        <TextView
-                            android:text="Calendars"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="8dp"
-                    >
-
-                    <LinearLayout
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:layout_margin="16dp"
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:src="@drawable/calendar"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                        <TextView
-                            android:text="Calendars"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="8dp"
-                    >
-
-                    <LinearLayout
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:layout_margin="16dp"
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:src="@drawable/calendar"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                        <TextView
-                            android:text="Calendars"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="8dp"
-                    >
-
-                    <LinearLayout
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:layout_margin="16dp"
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:src="@drawable/calendar"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                        <TextView
-                            android:text="Calendars"
-                            android:textAlignment="center"
-                            android:textColor="@android:color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
 
             </GridLayout>
 

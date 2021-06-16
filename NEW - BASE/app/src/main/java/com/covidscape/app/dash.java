@@ -214,9 +214,6 @@ public class dash extends Fragment {
                         modelList.add(model);
                     }
 
-
-
-
                     adapter = new Adapter(getActivity(), modelList);
                     listView.setAdapter(adapter);
 
