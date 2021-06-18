@@ -7,8 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".signup"
     android:gravity="center_vertical"
-    android:layout_marginLeft="50dp"
-    android:layout_marginRight="35dp"
+    android:layout_margin="20dp"
     android:orientation="vertical">
 
     <TextView

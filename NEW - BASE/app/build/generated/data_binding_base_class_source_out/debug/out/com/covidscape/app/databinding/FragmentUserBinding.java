@@ -4,12 +4,12 @@ package com.covidscape.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.covidscape.app.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -19,9 +19,9 @@ public final class FragmentUserBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final Button logout;
+  public final MaterialCardView logout;
 
-  private FragmentUserBinding(@NonNull FrameLayout rootView, @NonNull Button logout) {
+  private FragmentUserBinding(@NonNull FrameLayout rootView, @NonNull MaterialCardView logout) {
     this.rootView = rootView;
     this.logout = logout;
   }
@@ -54,7 +54,7 @@ public final class FragmentUserBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.logout;
-      Button logout = rootView.findViewById(id);
+      MaterialCardView logout = rootView.findViewById(id);
       if (logout == null) {
         break missingId;
       }

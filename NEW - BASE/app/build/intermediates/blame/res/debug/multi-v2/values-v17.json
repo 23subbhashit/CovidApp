@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\TheGamerBoy13\\.gradle\\caches\\transforms-2\\files-2.1\\c45e0b61ecb3b2bcbbcb3af11c1cee2e\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\c45e0b61ecb3b2bcbbcb3af11c1cee2e\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

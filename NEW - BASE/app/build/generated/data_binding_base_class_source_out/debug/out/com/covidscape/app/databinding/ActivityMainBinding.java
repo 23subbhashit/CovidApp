@@ -5,11 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.viewbinding.ViewBinding;
 import com.covidscape.app.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,15 +24,20 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button home;
 
   @NonNull
-  public final Button log;
+  public final ImageView imageView2;
 
   @NonNull
-  public final Button sign;
+  public final MaterialCardView log;
+
+  @NonNull
+  public final MaterialCardView sign;
 
   private ActivityMainBinding(@NonNull LinearLayoutCompat rootView, @NonNull Button home,
-      @NonNull Button log, @NonNull Button sign) {
+      @NonNull ImageView imageView2, @NonNull MaterialCardView log,
+      @NonNull MaterialCardView sign) {
     this.rootView = rootView;
     this.home = home;
+    this.imageView2 = imageView2;
     this.log = log;
     this.sign = sign;
   }
@@ -68,19 +75,25 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView2;
+      ImageView imageView2 = rootView.findViewById(id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
       id = R.id.log;
-      Button log = rootView.findViewById(id);
+      MaterialCardView log = rootView.findViewById(id);
       if (log == null) {
         break missingId;
       }
 
       id = R.id.sign;
-      Button sign = rootView.findViewById(id);
+      MaterialCardView sign = rootView.findViewById(id);
       if (sign == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayoutCompat) rootView, home, log, sign);
+      return new ActivityMainBinding((LinearLayoutCompat) rootView, home, imageView2, log, sign);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
