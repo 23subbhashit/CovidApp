@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\1c23af942abf0513320b07556f9dadf9\\material-1.3.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\TheGamerBoy13\\.gradle\\caches\\transforms-2\\files-2.1\\1c23af942abf0513320b07556f9dadf9\\material-1.3.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\c45e0b61ecb3b2bcbbcb3af11c1cee2e\\appcompat-1.2.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\TheGamerBoy13\\.gradle\\caches\\transforms-2\\files-2.1\\c45e0b61ecb3b2bcbbcb3af11c1cee2e\\appcompat-1.2.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

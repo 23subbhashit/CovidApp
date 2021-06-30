@@ -1,62 +1,62 @@
 [
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\reset_pass.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\reset_pass.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_jparse.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_jparse.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_user.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\mythbackup.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\mythbackup.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\splash.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\testing.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\testing.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_main_article_adapter.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\row_main_article_adapter.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\signup.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_main_article_adapter.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\row_main_article_adapter.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dash.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_dash.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\splash.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\reset_pass.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\reset_pass.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\city_wise_layout.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\city_wise_layout.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\mythbackup.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\mythbackup.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\home.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\city_wise_layout.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\city_wise_layout.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_jparse.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\activity_jparse.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\testing.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\testing.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
-        "source": "E:\\Excecution\\Android\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_news.xml"
+        "merged": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myth.xml",
+        "source": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\src\\main\\res\\layout\\fragment_myth.xml"
     }
 ]
