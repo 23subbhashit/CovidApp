@@ -5,12 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.GridLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.covidscape.app.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,16 +19,43 @@ public final class FragmentMythBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final GridLayout mainGrid;
+  public final MaterialCardView car3;
 
   @NonNull
-  public final TextView textGrid;
+  public final MaterialCardView card1;
 
-  private FragmentMythBinding(@NonNull FrameLayout rootView, @NonNull GridLayout mainGrid,
-      @NonNull TextView textGrid) {
+  @NonNull
+  public final MaterialCardView card2;
+
+  @NonNull
+  public final MaterialCardView card5;
+
+  @NonNull
+  public final MaterialCardView card6;
+
+  @NonNull
+  public final MaterialCardView card7;
+
+  @NonNull
+  public final MaterialCardView card8;
+
+  @NonNull
+  public final MaterialCardView card9;
+
+  private FragmentMythBinding(@NonNull FrameLayout rootView, @NonNull MaterialCardView car3,
+      @NonNull MaterialCardView card1, @NonNull MaterialCardView card2,
+      @NonNull MaterialCardView card5, @NonNull MaterialCardView card6,
+      @NonNull MaterialCardView card7, @NonNull MaterialCardView card8,
+      @NonNull MaterialCardView card9) {
     this.rootView = rootView;
-    this.mainGrid = mainGrid;
-    this.textGrid = textGrid;
+    this.car3 = car3;
+    this.card1 = card1;
+    this.card2 = card2;
+    this.card5 = card5;
+    this.card6 = card6;
+    this.card7 = card7;
+    this.card8 = card8;
+    this.card9 = card9;
   }
 
   @Override
@@ -59,19 +85,56 @@ public final class FragmentMythBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.mainGrid;
-      GridLayout mainGrid = rootView.findViewById(id);
-      if (mainGrid == null) {
+      id = R.id.car3;
+      MaterialCardView car3 = rootView.findViewById(id);
+      if (car3 == null) {
         break missingId;
       }
 
-      id = R.id.textGrid;
-      TextView textGrid = rootView.findViewById(id);
-      if (textGrid == null) {
+      id = R.id.card1;
+      MaterialCardView card1 = rootView.findViewById(id);
+      if (card1 == null) {
         break missingId;
       }
 
-      return new FragmentMythBinding((FrameLayout) rootView, mainGrid, textGrid);
+      id = R.id.card2;
+      MaterialCardView card2 = rootView.findViewById(id);
+      if (card2 == null) {
+        break missingId;
+      }
+
+      id = R.id.card5;
+      MaterialCardView card5 = rootView.findViewById(id);
+      if (card5 == null) {
+        break missingId;
+      }
+
+      id = R.id.card6;
+      MaterialCardView card6 = rootView.findViewById(id);
+      if (card6 == null) {
+        break missingId;
+      }
+
+      id = R.id.card7;
+      MaterialCardView card7 = rootView.findViewById(id);
+      if (card7 == null) {
+        break missingId;
+      }
+
+      id = R.id.card8;
+      MaterialCardView card8 = rootView.findViewById(id);
+      if (card8 == null) {
+        break missingId;
+      }
+
+      id = R.id.card9;
+      MaterialCardView card9 = rootView.findViewById(id);
+      if (card9 == null) {
+        break missingId;
+      }
+
+      return new FragmentMythBinding((FrameLayout) rootView, car3, card1, card2, card5, card6,
+          card7, card8, card9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

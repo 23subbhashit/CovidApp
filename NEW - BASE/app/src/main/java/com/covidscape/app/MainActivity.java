@@ -7,13 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.card.MaterialCardView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button sign;
-    private Button log;
+    private MaterialCardView sign;
+    private MaterialCardView  log;
     private Button home;
     private FirebaseAuth mAuth;
 

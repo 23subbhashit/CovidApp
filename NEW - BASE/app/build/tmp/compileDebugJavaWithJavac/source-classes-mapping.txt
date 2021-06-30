@@ -44,6 +44,8 @@ com/covidscape/app/databinding/ResetPassBinding.java
  com.covidscape.app.databinding.ResetPassBinding
 com/covidscape/app/databinding/SignupBinding.java
  com.covidscape.app.databinding.SignupBinding
+com/covidscape/app/databinding/MythbackupBinding.java
+ com.covidscape.app.databinding.MythbackupBinding
 com/covidscape/app/reset_pass.java
  com.covidscape.app.reset_pass
  com.covidscape.app.reset_pass$1

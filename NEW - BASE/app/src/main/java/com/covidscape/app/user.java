@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.card.MaterialCardView;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class user extends Fragment {
@@ -20,7 +21,7 @@ public class user extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_user, container, false);
-        Button logout = (Button) view.findViewById(R.id.logout);
+        MaterialCardView logout = (MaterialCardView) view.findViewById(R.id.logout);
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
