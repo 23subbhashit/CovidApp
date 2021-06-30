@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "W:\\Android Apps\\CovidApp\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+            "outputFile": "E:\\Excecution\\Android\\final\\NEW - BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\TheGamerBoy13\\.gradle\\caches\\transforms-2\\files-2.1\\1c23af942abf0513320b07556f9dadf9\\material-1.3.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\shree\\.gradle\\caches\\transforms-2\\files-2.1\\1c23af942abf0513320b07556f9dadf9\\material-1.3.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

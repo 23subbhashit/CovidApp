@@ -33,7 +33,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/glove" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -45,17 +45,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="Is it safer to frequently clean your hands and not wear gloves?"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="Is it safer to frequently clean your hands and not wear gloves?"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -84,7 +77,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/swim" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -96,17 +89,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="Do water or swimming transmit the COVID-19 virus?"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="Do water or swimming transmit the COVID-19 virus?"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -135,7 +120,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/health" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -147,17 +132,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="Do people who get COVID-19 recover from it?"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="Do people who get COVID-19 recover from it?"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -186,7 +163,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/air" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -198,17 +175,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="Holding breath for 10 seconds or more without coughing or feeling discomfort means being free from covid?"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="Holding breath for 10 seconds or moer without coughing or feeling discomfort means being free from covid?"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -237,7 +206,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/insulin" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -249,23 +218,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="After vaccination we won't get Covid-19 virus"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="intro about it"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="description about it\ndescription about it\ndescription about it\n"
+                            android:text="It is completely False to assume such things. Vaccination is introduced to lower the death rate and minimize the effect of virus. It doesnt provide bullet proof immunity."
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>
@@ -288,7 +249,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/mosquito" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -300,23 +261,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="Can Covid-19 be transmitted through mosquitoes?"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="intro about it"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="description about it\ndescription about it\ndescription about it\n"
+                            android:text="There is no evidence that the novel coronavirus can be transmitted through mosquitoes. The virus can be spread through droplets from coughing, sneezing or a patient’s saliva."
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>
@@ -339,7 +292,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/alcohol" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -351,23 +304,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="Can drinking alcohol help prevent Covid-19?"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="intro about it"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="description about it\ndescription about it\ndescription about it\n"
+                            android:text="Drinking alcohol, such as beer, liquor, wine doesn’t help prevent coronavirus. You should wash your hands often, wear masks, and avoid being close to those with a fever and cough"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>
@@ -390,7 +335,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/family_time" />
+                        app:srcCompat="@drawable/sunlight" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -402,23 +347,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MYTH"
+                            android:text="Can UV bulbs used for disinfecting be used to kill Covid-19 on our body?"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             android:textColor="#6e3aab" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="intro about it"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="description about it\ndescription about it\ndescription about it\n"
+                            android:text="No, Don’t use UV bulbs on your hands or any part of the body because UV light can irritate your skin"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>

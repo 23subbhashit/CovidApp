@@ -1702,6 +1702,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable air
+drawable alcohol
 drawable avd_hide_password
 drawable avd_show_password
 drawable bg
@@ -1743,9 +1745,11 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable family_time
 drawable friends
+drawable glove
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable heal
+drawable health
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1754,6 +1758,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable insulin
 drawable logo
 drawable lovely_time
 drawable material_cursor_drawable
@@ -1767,6 +1772,7 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable me_time
+drawable mosquito
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1794,6 +1800,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable sunlight
+drawable swim
 drawable team_time
 drawable test_custom_background
 drawable tooltip_frame_dark
